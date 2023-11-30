@@ -1,4 +1,4 @@
-**Laser Image Projection System
+Laser Image Projection System
 
 Descrição
 
@@ -24,3 +24,33 @@ Projeção e Visualização: Instruções sobre como projetar a imagem e ajustá
 Contribuições
 
 Contribuições são bem-vindas! Estamos ansiosos para colaborar com entusiastas e profissionais. Por favor, leia nosso guia de contribuição para entender como você pode contribuir para a melhoria deste projeto inovador.
+
+
+
+Laser Image Projection System
+
+Description
+
+This innovative project aims to develop an advanced image projection system using laser technology. Combining high-resolution real-time video cameras and a sophisticated RGB laser platform, this system can capture and project images onto various surfaces or mediums, creating stunning visual effects. Ideal for events, artistic installations, and holography experiments, this project represents a milestone at the intersection of technology and art.
+
+Features
+
+Real-Time Capture: Uses high-resolution cameras to capture images in real-time.
+RGB Laser Array: An array of red, green, and blue lasers, each adjustable in intensity and color, for accurate representation of the captured image.
+Holographic Projection: Capable of projecting images onto various surfaces or mediums, enabling holographic effects.
+Latency Control: Designed to minimize latency between image capture and projection, ensuring a real-time viewing experience.
+Safety: Implements rigorous safety measures to ensure the use of lasers poses no risk to the public or operators.
+Installation and Configuration
+Detailed instructions for installing the necessary hardware and configuring the software are available in the project documentation section.
+
+Usage
+
+Camera Setup: Guidelines for configuring the camera and adjusting capture settings.
+Image Transmission: Explanations on how to transmit the captured image to the laser platform.
+Laser Calibration: A detailed guide to calibrate the intensity and color of the lasers according to the captured image.
+Projection and Viewing: Instructions on how to project the image and adjust it for different types of surfaces or mediums.
+
+Contributions
+
+Contributions are welcome! We look forward to collaborating with enthusiasts and professionals. Please read our contribution guide to understand how you can contribute to improving this innovative project.
+
