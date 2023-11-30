@@ -1,0 +1,4 @@
+Pré-requisitos
+
+Uma biblioteca de processamento de imagens, como o PIL (Python Imaging Library) ou OpenCV, para ler e processar a imagem.
+Uma forma de comunicação com o hardware do laser, que pode ser implementada de várias maneiras, dependendo do hardware específico.
