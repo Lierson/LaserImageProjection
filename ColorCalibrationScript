@@ -2,22 +2,34 @@ from PIL import Image
 import numpy as np
 
 def get_image_color_data(image_path):
-    """Lê a imagem e retorna os dados de cor dos pixels."""
+    """
+    Lê a imagem do caminho fornecido e retorna uma matriz dos dados de cor dos pixels.
+    :param image_path: String com o caminho da imagem.
+    :return: Matriz com os dados dos pixels.
+    """
     image = Image.open(image_path)
     image = image.convert('RGB')
     pixels = np.array(image)
     return pixels
 
 def calibrate_laser_colors(pixel_data):
-    """Calibra os lasers com base nos dados dos pixels da imagem."""
+    """
+    Calibra os lasers com base nos dados dos pixels da imagem.
+    Itera sobre cada pixel e extrai os componentes vermelho (R), verde (G) e azul (B).
+    Esses valores seriam usados para calibrar as cores do laser.
+    Substitua o 'print' pela lógica real de controle do laser.
+    :param pixel_data: Matriz com os dados dos pixels.
+    """
     for row in pixel_data:
         for pixel in row:
             red, green, blue = pixel
-            # Aqui, você adicionaria o código para ajustar os lasers.
-            # Por exemplo, enviar comandos para os lasers para corresponder a estas cores.
+            # Substituir esta linha pela lógica real de controle do laser.
             print(f"Calibrando laser para R:{red} G:{green} B:{blue}")
 
 def main():
+    """
+    Função principal. Define o caminho da imagem e inicia o processo de calibração.
+    """
     image_path = 'caminho_para_sua_imagem.jpg'
     pixel_data = get_image_color_data(image_path)
     calibrate_laser_colors(pixel_data)
