@@ -1,0 +1,26 @@
+from PIL import Image
+import numpy as np
+
+def get_image_color_data(image_path):
+    """Lê a imagem e retorna os dados de cor dos pixels."""
+    image = Image.open(image_path)
+    image = image.convert('RGB')
+    pixels = np.array(image)
+    return pixels
+
+def calibrate_laser_colors(pixel_data):
+    """Calibra os lasers com base nos dados dos pixels da imagem."""
+    for row in pixel_data:
+        for pixel in row:
+            red, green, blue = pixel
+            # Aqui, você adicionaria o código para ajustar os lasers.
+            # Por exemplo, enviar comandos para os lasers para corresponder a estas cores.
+            print(f"Calibrando laser para R:{red} G:{green} B:{blue}")
+
+def main():
+    image_path = 'caminho_para_sua_imagem.jpg'
+    pixel_data = get_image_color_data(image_path)
+    calibrate_laser_colors(pixel_data)
+
+if __name__ == "__main__":
+    main()
