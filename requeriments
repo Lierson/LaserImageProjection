@@ -2,3 +2,38 @@ Pré-requisitos
 
 Uma biblioteca de processamento de imagens, como o PIL (Python Imaging Library) ou OpenCV, para ler e processar a imagem.
 Uma forma de comunicação com o hardware do laser, que pode ser implementada de várias maneiras, dependendo do hardware específico.
+
+
+
+CAMERA
+
+1. Resolução
+Alta Resolução: Para capturar detalhes finos e garantir uma boa qualidade de imagem ao projetar, uma câmera com alta resolução é preferível. Câmeras com resolução de 1080p (Full HD) ou superior (como 4K) seriam ideais.
+
+2. Taxa de Quadros
+Alta Taxa de Quadros: Para captura de vídeo em tempo real, uma alta taxa de quadros (fps) é crucial, especialmente se o movimento rápido é uma parte essencial do conteúdo capturado. Uma taxa de 60 fps ou mais é recomendada para fluidez.
+
+3. Sensibilidade à Luz e Desempenho em Baixa Luz
+Boa Performance em Baixa Luz: Se você planeja usar a câmera em ambientes com iluminação variável ou fraca, escolha uma câmera com boa performance em baixa luz.
+
+4. Latência
+Baixa Latência: Para aplicações em tempo real, a câmera deve ter uma latência muito baixa para evitar atrasos entre a captura da imagem e a projeção.
+
+5. Interface de Saída
+Compatibilidade de Saída: Certifique-se de que a câmera pode se conectar facilmente ao seu sistema de processamento, seja por HDMI, SDI, USB, ou outra interface.
+
+6. Tamanho e Portabilidade
+Compacta e Durável: Se a portabilidade ou o espaço são uma preocupação, escolha uma câmera compacta e resistente.
+
+7. Funcionalidades Adicionais
+Auto-Foco e Estabilização de Imagem: Útil para manter a qualidade da imagem, especialmente se a câmera estiver sujeita a movimentos ou vibrações.
+Capacidades de Rede: Para transmissões sem fio ou integração em redes.
+
+8. Custo-Benefício
+Orçamento: Considere o custo da câmera e avalie se as características justificam o preço, especialmente em relação ao orçamento total do projeto.
+
+Exemplos de Câmeras
+
+Câmeras DSLR ou Mirrorless: Oferecem alta qualidade de imagem e versatilidade.
+Câmeras de Ação (como GoPro): Boas para situações onde a portabilidade e a durabilidade são essenciais.
+Câmeras Profissionais de Vídeo: Oferecem alta qualidade de imagem e opções de conectividade, mas podem ser mais caras.
