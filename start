@@ -4,6 +4,7 @@ Configuração da Câmera:
 
 Configure uma câmera de vídeo para capturar imagens em tempo real.
 O vídeo deve ser processado para determinar as cores e intensidades de luz de cada pixel.
+
 Transmissão da Imagem:
 
 Transmita os dados da imagem em tempo real para a plataforma de lasers.
@@ -21,10 +22,13 @@ Projeção da Imagem:
 
 Os lasers projetam a imagem em uma superfície ou meio (como uma tela de projeção ou neblina para efeitos de holograma).
 O mecanismo de direção dos lasers deve sincronizar a posição do feixe com a posição correspondente do pixel na imagem.
+
 Atualização em Tempo Real:
 
 O script deve ser capaz de atualizar a projeção em tempo real, acompanhando as mudanças na imagem transmitida pela câmera.
+
 Considerações Técnicas
+
 Latência: O sistema deve minimizar a latência entre a captura da imagem pela câmera e a projeção pelo laser para garantir uma experiência em tempo real.
 Resolução e Escala: A resolução da imagem projetada depende do número de lasers na matriz. Quanto mais lasers, maior a resolução possível.
 Segurança: Deve-se garantir que os lasers não sejam perigosos para pessoas nas proximidades, especialmente em relação aos olhos.
